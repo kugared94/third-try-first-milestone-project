@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+header {
+    font-size: 35px;
+}
+
 body {
     font-family: "heebo",sans-serif;
 }
@@ -49,6 +53,8 @@ nav ul li a {
 a.active,a:hover {
     background: #5a5a5a;
     transition: .5s;
+    color: #000000;
+    text-decoration: none;
 }
 
 .checkbtn {
@@ -113,3 +119,66 @@ a.active,a:hover {
 }
 
 /*--------------------------------------------------section */
+
+section {
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    color: #000000;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    font-family: "heebo", sans-serif;
+    margin: 50px auto;
+    min-height: 100px;
+}
+
+div h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.small {
+    font-family: "sriracha", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 170px;
+    line-height: 80%; 
+}
+
+.biggest {
+    font-family: "sriracha", sans-serif;
+    font-size: 300px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 100px; 
+    line-height: 80%;
+}
+
+.big {
+    font-family: "sriracha", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 710px; 
+    line-height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding-top: 5vh;
+    }
+}
+
+/*--------------------------------------------------footer */
