@@ -18,16 +18,16 @@ body {
 
 nav {
     background: #000000;
-    height: 80px;
+    height: 90px;
     width: 100%;
 }
 
 label.logo {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: uppercase;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 60px 100px;
     font-weight: bold;
 }
 
@@ -71,6 +71,104 @@ a.active,a:hover {
     display: none;
 }
 
+/*--------------------------------------------------section */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+section {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Heebo",sans-serif;
+    font-size: 40px;
+    color: #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.text-p-1 {
+    font-family: "sriracha",sans-serif;
+    font-size: 100px;
+    color: #000000;
+    line-height: 80%;
+    padding-left: 350px;
+}
+.text-p-2 {
+    font-family: "sriracha",sans-serif;
+    font-size: 300px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 80%;
+}
+.text-p-3 {
+    font-family: "sriracha",sans-serif;
+    font-size: 100px;
+    color: #000000;
+    padding-left: 1100px;
+    padding-bottom: 100px;
+}
+
+.service-bg-color {
+    background-color: #5a5a5a;
+    height: 460px;
+    width: 100%;
+    padding: 50px;
+}
+
+h2 {
+    font-family: "Heebo",sans-serif;
+    font-size: 40px;
+    color: white;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+div.service-pic {
+  border: 5px solid #ccc;
+}
+
+div.service-pic:hover {
+  border: 10px solid black;
+}
+
+div.service-pic img {
+  width: 100%;
+  height: 250px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.section-title {
+    font-family: "heebo",sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+/*-------------------------------------------------- footer */
+
+/*-------------------------------------------------- media */
+
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -80,10 +178,70 @@ a.active,a:hover {
     nav ul li a {
         font-size: 16px;
     }
+
+    h1 {
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+    .text-p-1 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 80%;
+        padding-left: 30px;
+    }
+
+    .text-p-2 {
+        font-size: 80px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 80%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .text-p-3 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 80%;
+        padding-left: 200px;
+        padding-bottom: 20px;
+    }
+
+    .service-bg-color {
+        height: 320px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+
+    .section-title {
+        font-size: 10px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    div.service-pic img {
+        width: 100%;
+        height: 90px;
+    }
 }
 
 @media (max-width: 858px) {
     .checkbtn {
+        display: block;
+    }
+
+    .logo {
         display: block;
     }
 
@@ -117,68 +275,3 @@ a.active,a:hover {
         left: 0;
     }
 }
-
-/*--------------------------------------------------section */
-
-section {
-    background-color: #fff;
-    position: absolute;
-    width: 100%;
-    color: #000000;
-}
-
-.section1 {
-    display: flex;
-    align-items: center;
-    font-family: "heebo", sans-serif;
-    margin: 50px auto;
-    min-height: 100px;
-}
-
-div h1 {
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-p {
-    display: block;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.small {
-    font-family: "sriracha", sans-serif;
-    font-size: 80px;
-    font-weight: bold;
-    padding-left: 170px;
-    line-height: 80%; 
-}
-
-.biggest {
-    font-family: "sriracha", sans-serif;
-    font-size: 300px;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-left: 100px; 
-    line-height: 80%;
-}
-
-.big {
-    font-family: "sriracha", sans-serif;
-    font-size: 80px;
-    font-weight: bold;
-    padding-left: 710px; 
-    line-height: 80%;
-}
-
-@media screen and (max-width: 768px) {
-    .container {
-        padding-top: 5vh;
-    }
-}
-
-/*--------------------------------------------------footer */
