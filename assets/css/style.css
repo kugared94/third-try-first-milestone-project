@@ -118,7 +118,7 @@ h1 {
 
 .service-bg-color {
     background-color: #5a5a5a;
-    height: 65vh;
+    height: 60vh;
     width: 100%;
     padding: 50px;
 }
@@ -166,9 +166,10 @@ div.service-pic img {
 .bg-footer {
     background-color: #000000;
     color: white;
-    height: 95vh;
+    height: 70vh;
     width: 100%;
     padding: 50px;
+    position: fixed;
 }
 
 .footer-logo {
@@ -198,9 +199,6 @@ div.service-pic img {
     font-family: "heebo",sans-serif;
     font-size: 20px;
     padding: 0 50px;
-}
-
-.service-list-style ul li {
     list-style-type: none;
 }
 
@@ -219,10 +217,20 @@ div.service-pic img {
     letter-spacing: 5px;
 }
 
-.social-media-list ul li {
+.social-media-list ul li  {
     color: white;
     font-size: 30px;
-    padding: 20px;
+    padding-left: 10px;
+    letter-spacing: 5px;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+.social-media-list a i {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
     letter-spacing: 5px;
     text-align: center;
     list-style-type: none;
@@ -241,7 +249,7 @@ div.service-pic img {
 }
 /*-------------------------------------------------- media */
 
-@media (max-width: 952px) {
+@media (max-width: 960px) {
 /*-------------------------------------------------- nav bar */
     label.logo {
         font-size: 30px;
@@ -313,7 +321,7 @@ div.service-pic img {
     .bg-footer {
         background-color: #000000;
         color: white;
-        height: 165vh;
+        height: 155vh;
         width: 100%;
         padding: 20px;
     }
