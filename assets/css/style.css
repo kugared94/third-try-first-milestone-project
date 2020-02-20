@@ -177,11 +177,12 @@ div.service-pic img {
     background-position: center;
 }
 
-div.transbox {
+.transbox {
     margin: 30px;
     background-color: #ffffff;
     border: 1px solid #000000;
     opacity: 0.8;
+    text-align: center;
 }
 
 div.transbox h1{
@@ -293,10 +294,11 @@ div.transbox h1{
     font-size: 20px;
     padding-left: 40px;
 }
+/*-------------------------------------------------- footer */
 /*-------------------------------------------------- media */
 
 @media (max-width: 960px) {
-/*-------------------------------------------------- nav bar */
+/*-------------------------------- nav bar */
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -313,8 +315,8 @@ div.transbox h1{
         padding-left: 10px;
         padding-bottom: 20px;
     }
-/*-------------------------------------------------- nav bar */
-/*-------------------------------------------------- section index */
+/*-------------------------------- nav bar */
+/*-------------------------------- section index */
     .text-p-1 {
         font-size: 30px;
         font-weight: bold;
@@ -362,9 +364,9 @@ div.transbox h1{
         width: 100%;
         height: 15vh;
     }
-/*-------------------------------------------------- section index */
+/*-------------------------------- section index */
 
-/*--------------------------------------------------section index2 */
+/*-------------------------------- section index2 */
     .bg-logo-index2 {
     background-size: 300px 500px;
     background-position: center;
@@ -392,13 +394,13 @@ div.transbox h1{
         text-align: center;
     }
 
-/*--------------------------------------------------section index2 */
+/*-------------------------------- section index2 */
 
-/*-------------------------------------------------- footer */
+/*-------------------------------- footer */
     .bg-footer {
         background-color: #000000;
         color: white;
-        height: 155vh;
+        height: 135vh;
         width: 100%;
         padding: 20px;
     }
@@ -458,7 +460,7 @@ div.transbox h1{
     .social-media-list:not(:last-child) {
     margin: 0;
 }
-/*-------------------------------------------------- footer */ 
+/*-------------------------------- footer */ 
 }
 
 @media (max-width: 858px) {
