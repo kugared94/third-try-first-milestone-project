@@ -84,7 +84,7 @@ section {
     margin: 0;
 }
 
-h1 {
+.text-h1-1 {
     font-family: "Heebo",sans-serif;
     font-size: 40px;
     color: #000000;
@@ -179,20 +179,20 @@ div.service-pic img {
 
 .transbox {
     margin: 30px;
-    background-color: #ffffff;
+    background-color: rgba(88, 88, 88,0.8);
     border: 1px solid #000000;
-    opacity: 0.8;
     text-align: center;
 }
 
 div.transbox h1{
     font-weight: bold;
-    color: #000000;
+    color: black;
 }
 
 .transbox h1 {
     font-family: "sriracha", sans-serif;
     font-size: 60px;
+    padding: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -209,6 +209,90 @@ div.transbox h1{
     text-align: center;
 }
 /*--------------------------------------------------section index2 */
+/*--------------------------------------------------section index3 */
+.bg-logo-index3 {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(../image/logobig.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+
+.wrapper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    
+}
+
+.wrapper h1 {
+    font-family: "sriracha", sans-serif;
+    font-size: 40px;
+    color:  black;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(88, 88, 88,0.6);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(88, 88, 88, 0.6);
+}
+
+.input-fields { 
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.message {
+    width: 48%;
+}
+
+.input-fields .input,
+.message textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0px;
+  border-bottom: 2px solid #5a5a5a;
+  padding: 10px;
+  color: black;
+  width: 100%;
+}
+
+.message textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+::-moz-placeholder {
+  color: white;
+}
+:-ms-input-placeholder {
+  color: white;
+}
+
+.button {
+    background: #5a5a5a;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+/*--------------------------------------------------section index3 */
 /*-------------------------------------------------- footer */
 
 .bg-footer {
@@ -502,4 +586,17 @@ div.transbox h1{
     #check:checked ~ ul {
         left: 0;
     }
+}
+
+@media screen and (max-width: 600px){
+  .contact-form{
+    flex-direction: column;
+  }
+  .msg textarea{
+    height: 80px;
+  }
+  .input-fields,
+  .msg{
+    width: 100%;
+  }
 }
