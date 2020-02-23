@@ -1,7 +1,7 @@
 
 ### Project Discription.
 
-<img src="assets/image//logo_black.png" width="100">
+<img src="assets/image/logo_black.png" width="100">
 
 **Mad's Lab.**
 
@@ -9,6 +9,7 @@ Mad's Lab is a company that serve multiple service to the customer in architectu
 
 ## Table of contents
 * [Ux](#Ux)
+* [Feature](#Feature)
 * [Technologies-Used](#Technologies-Used)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
@@ -20,6 +21,21 @@ To achieve the customer requirement, Mad's Lab serve multiple services such as d
 
   * Project Goals
     The primary goal os Mad's Lab is to provide varity services to everyone so that it can become a big company and serve everyone in the world.
+
+## Feature
+
+<img src="assets/image/1.png" width="100">
+    - On arriving at the page for the first time, this word have been shown to inform the user what this website is about.
+
+<img src="assets/image/2.png" width="100">
+    - On the upper of the footer, the picture is show to the user the example of the previous project that have been done by Mad's Lab team.
+    - In the footer area, the information of the company detail have given to the user for them to contact Mad's Lab.
+
+<img src="assets/image/3.png" width="100">
+    - On the price page, the Mad's Lab price list is given to the user for the rate price based on the situation.
+
+<img src="assets/image/4.png" width="100">
+    - On the last page, in the application page which is if the user want to hire or want to join our team, they can fill in the form. All the data will be collected.
 
 
 ## Technologies Used
