@@ -185,34 +185,31 @@ div.service-pic img {
 
 .transbox {
     margin: 30px;
-    background-color: rgba(88, 88, 88,0.8);
+    background-color: rgba(88, 88, 88,0.9);
     border: 5px solid white;
-    text-align: center;
 }
 
 div.transbox h1{
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .transbox h1 {
     font-family: "sriracha", sans-serif;
     font-size: 60px;
     padding: 50px;
-    text-transform: uppercase;
     letter-spacing: 5px;
 }
 
 .price-list, th, td {
-    border: 5px solid white;
+    border: 5px solid black;
     font-family: "sriracha", sans-serif;
     font-size: 40px;
-    color: #000000;
-    text-transform: uppercase;
+    color: white;
     padding: 20px;
     margin-left: 400px; 
+    margin-right: 400px;
     margin-bottom: 100px;
-    text-align: center;
 }
 /*--------------------------------------------------section index2 */
 /*--------------------------------------------------section index3 */
@@ -224,7 +221,7 @@ div.transbox h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 120vh;
+    height: auto;
 }
 
 .wrapper {
@@ -276,7 +273,7 @@ div.transbox h1{
 }
 
 .message textarea{
-  height: 212px;
+  height: 244px;
 }
 
 ::-webkit-input-placeholder {
@@ -291,7 +288,7 @@ div.transbox h1{
 
 .button {
     background: #5a5a5a;
-    text-align: center;
+    text-align: left;
     padding: 15px;
     border-radius: 5px;
     color: #fff;
@@ -304,10 +301,11 @@ div.transbox h1{
 .bg-footer {
     background-color: #000000;
     color: white;
-    height: 70vh;
+    height: auto;
     width: 100%;
     padding: 50px;
     border-top: 5px solid white;
+    position: absolute;
 }
 
 .footer-logo {
@@ -408,11 +406,19 @@ div.transbox h1{
     }
 /*-------------------------------- nav bar */
 /*-------------------------------- section index */
+    .text-h1-1 {
+        font-family: "Heebo",sans-serif;
+        font-size: 40px;
+        color: #000000;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
     .text-p-1 {
         font-size: 30px;
         font-weight: bold;
         line-height: 80%;
-        padding-left: 60px;
+        padding-left: 30px;
     }
 
     .text-p-2 {
@@ -428,7 +434,7 @@ div.transbox h1{
         font-size: 30px;
         font-weight: bold;
         line-height: 80%;
-        padding-left: 220px;
+        padding-left: 200px;
         padding-bottom: 20px;
     }
 
@@ -459,41 +465,139 @@ div.transbox h1{
 
 /*-------------------------------- section index2 */
     .bg-logo-index2 {
-    background-size: 300px 500px;
-    background-position: center;
+        border: 2px solid black;
+        padding: 10px;
+        background: url(../image/logobig.png);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: 300px 500px;
+        background-position: center;
     }
 
-    div.transbox {
+    .transbox {
         margin: 10px;
-        opacity: 0.8;
+        background-color: rgba(88, 88, 88,0.9);
+        border: 5px solid white;
+    }
+
+    div.transbox h1{
+        font-weight: bold;
+        color: white;
+        padding: 10px;
     }
 
     .transbox h1 {
         font-family: "sriracha", sans-serif;
-        font-size: 25px;
-        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: white;
     }
 
     .price-list, th, td {
+        border: 5px solid black;
+        font-family: "sriracha", sans-serif;
         font-size: 15px;
-        color: #000000;
-        text-transform: uppercase;
+        color: white;
+        margin-left: 30px; 
+        margin-right: 30px;
+        margin-bottom: 30px;
         padding: 10px;
-        margin-left: 20px;
-        margin-right: 20px; 
-        margin-bottom: 50px;
-        text-align: center;
     }
 
 /*-------------------------------- section index2 */
+/*--------------------------------------------------section index3 */
+    .bg-logo-index3 {
+        border: 2px solid black;
+        padding: 15px;
+        background: url(../image/logobig.png);
+        background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: auto;
+    }
 
+    .wrapper {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+        
+    }
+
+    .wrapper h1 {
+        font-family: "sriracha", sans-serif;
+        font-size: 25px;
+        color:  black;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    .contact-form {
+        display: flex;
+        max-width: 550px;
+        margin: 0 auto;
+        background: rgba(88, 88, 88,0.8);
+        padding: 30px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgb(88, 88, 88, 0.8);
+    }
+
+    .input-fields { 
+        display: flex;
+        flex-direction: column;
+        margin-right: 4%;
+    }
+
+    .input-fields,
+    .message {
+        width: 48%;
+    }
+
+    .input-fields .input,
+    .message textarea {
+        margin: 10px 0;
+        background: transparent;
+        border: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px;
+        color: black;
+        width: 100%;
+    }
+
+    .message textarea{
+        height: 212px;
+        width: auto;
+    }
+
+    ::-webkit-input-placeholder {
+        color: white;
+    }
+    ::-moz-placeholder {
+        color: white;
+    }
+    :-ms-input-placeholder {
+        color: white;
+    }
+
+    .button {
+        background: #5a5a5a;
+        float: right;
+        padding: 15px;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+/*--------------------------------------------------section index3 */
 /*-------------------------------- footer */
     .bg-footer {
         background-color: #000000;
         color: white;
-        height: 135vh;
+        height: auto;
         width: 100%;
         padding: 20px;
+        position: absolute;
     }
 
     .footer-logo {
@@ -596,7 +700,8 @@ div.transbox h1{
     }
 }
 
-@media screen and (max-width: 600px){
+
+@media (max-width: 600px){
   .contact-form{
     flex-direction: column;
   }
