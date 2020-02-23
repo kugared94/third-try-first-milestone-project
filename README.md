@@ -9,8 +9,9 @@ Mad's Lab is a company that serve multiple service to the customer in architectu
 
 ## Table of contents
 * [Technologies-Used](#Technologies-Used)
+* [Deployment](#Deployment)
 * [Credits](#Credits)
-* [Acknowledgements](#TAcknowledgements)
+* [Acknowledgements](#Acknowledgements)
 
 ## Technologies Used
 
