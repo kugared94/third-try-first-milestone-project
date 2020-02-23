@@ -235,7 +235,7 @@ div.transbox h1{
 .wrapper h1 {
     font-family: "sriracha", sans-serif;
     font-size: 40px;
-    color:  black;
+    color:  white;
     text-transform: uppercase;
     padding: 30px;
 }
@@ -462,7 +462,7 @@ div.transbox h1{
     }
 /*-------------------------------- section index */
 
-/*-------------------------------- section index2 */
+/*-------------------------------- section price list */
     .bg-logo-index2 {
         border: 2px solid black;
         padding: 10px;
@@ -503,8 +503,8 @@ div.transbox h1{
         padding: 10px;
     }
 
-/*-------------------------------- section index2 */
-/*--------------------------------------------------section index3 */
+/*-------------------------------- section price list */
+/*--------------------------------------------------section application */
     .bg-logo-index3 {
         border: 2px solid black;
         padding: 15px;
@@ -527,7 +527,7 @@ div.transbox h1{
     .wrapper h1 {
         font-family: "sriracha", sans-serif;
         font-size: 25px;
-        color:  black;
+        color:  white;
         text-transform: uppercase;
         padding: 10px;
     }
