@@ -171,7 +171,7 @@ div.service-pic img {
 
 /*--------------------------------------------------section index */
 
-/*--------------------------------------------------section index2 */
+/*--------------------------------------------------section price list */
 
 .bg-logo-index2 {
     border: 2px solid black;
@@ -211,8 +211,8 @@ div.transbox h1{
     margin-right: 400px;
     margin-bottom: 100px;
 }
-/*--------------------------------------------------section index2 */
-/*--------------------------------------------------section index3 */
+/*--------------------------------------------------section price list */
+/*--------------------------------------------------section application */
 .bg-logo-index3 {
     border: 2px solid black;
     padding: 25px;
@@ -295,7 +295,7 @@ div.transbox h1{
     cursor: pointer;
     text-transform: uppercase;
 }
-/*--------------------------------------------------section index3 */
+/*--------------------------------------------------section application */
 /*-------------------------------------------------- footer */
 
 .bg-footer {
@@ -376,12 +376,11 @@ div.transbox h1{
 .contact-list-style ul li {
     list-style-type: none;
     list-style-position: inside;
-    padding-left: 85px;
 }
 
 .contact-h4 {
     font-size: 20px;
-    padding-left: 40px;
+    text-align: center;
 }
 /*-------------------------------------------------- footer */
 /*-------------------------------------------------- media */
@@ -589,7 +588,7 @@ div.transbox h1{
         cursor: pointer;
         text-transform: uppercase;
     }
-/*--------------------------------------------------section index3 */
+/*--------------------------------------------------section application */
 /*-------------------------------- footer */
     .bg-footer {
         background-color: #000000;
@@ -633,7 +632,7 @@ div.transbox h1{
     .contact-h4 {
         font-size: 15px;
         padding-right: 70px;
-        
+        padding-left: 70px;
     }
 
     .social-media-list {
