@@ -1,6 +1,7 @@
-# third-try-first-milestone-project
 
 ## Project Discription.
+
+<img src="image/logo_black.png" width="100">
 
 **Mad's Lab.**
 
