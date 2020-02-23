@@ -203,7 +203,7 @@ div.transbox h1{
 
 .price-list, th, td {
     border: 5px solid black;
-    font-family: "sriracha", sans-serif;
+    font-family: "heebo", sans-serif;
     font-size: 40px;
     color: white;
     padding: 20px;
@@ -274,16 +274,6 @@ div.transbox h1{
 
 .message textarea{
   height: 244px;
-}
-
-::-webkit-input-placeholder {
-  color: white;
-}
-::-moz-placeholder {
-  color: white;
-}
-:-ms-input-placeholder {
-  color: white;
 }
 
 .button {
@@ -464,7 +454,6 @@ div.transbox h1{
 
 /*-------------------------------- section price list */
     .bg-logo-index2 {
-        border: 2px solid black;
         padding: 10px;
         background: url(../image/logobig.png);
         background-color: black;
@@ -494,7 +483,7 @@ div.transbox h1{
 
     .price-list, th, td {
         border: 5px solid black;
-        font-family: "sriracha", sans-serif;
+        font-family: "Heebo", sans-serif;
         font-size: 15px;
         color: white;
         margin-left: 30px; 
