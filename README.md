@@ -8,10 +8,19 @@
 Mad's Lab is a company that serve multiple service to the customer in architecture and web design field.
 
 ## Table of contents
+* [Ux](#Ux)
 * [Technologies-Used](#Technologies-Used)
 * [Deployment](#Deployment)
 * [Credits](#Credits)
 * [Acknowledgements](#Acknowledgements)
+
+## Ux
+This Mad's Lab project is suit for everyone.
+To achieve the customer requirement, Mad's Lab serve multiple services such as design service, computer setup and repair.
+
+  * Project Goals
+    The primary goal os Mad's Lab is to provide varity services to everyone so that it can become a big company and serve everyone in the world.
+
 
 ## Technologies Used
 
